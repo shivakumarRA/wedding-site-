@@ -29,8 +29,10 @@ export const facts = {
 
 /** Indian wedding imagery (stock, decorative — replace with your own photos in /public/photos). */
 export const images = {
-  /** The couple’s own photo (public/photos/couple.jpg, 1066×1600). */
-  couple: { src: "/photos/couple.jpg", width: 1066, height: 1600 },
+  /** The couple’s own photo (public/photos/couple-2026.jpg, 1200×2141). */
+  couple: { src: "/photos/couple-2026.jpg", width: 1200, height: 2141 },
+  /** The bride’s photo, shown on the entrance screen (public/photos/bride-2026.jpg, 635×823). */
+  bride: { src: "/photos/bride-2026.jpg", width: 635, height: 823 },
   hero: img("1654156577076-e0350ba86cc1", 2400), // hands joined over the sacred fire
   kalash: img("1606293926075-69a00dbfde81", 1000), // kalasam with coconut & mango leaves
   venue: img("1587271407850-8d438ca9fdf2", 1800), // decorated mandapam
