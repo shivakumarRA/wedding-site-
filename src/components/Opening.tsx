@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { LangToggle, SideToggle, useLang } from "./i18n";
+import { LangToggle, useLang } from "./i18n";
 import { useMusic } from "./MusicProvider";
 import { CornerFlourish } from "./ornaments";
 import { ease } from "./ui";
@@ -88,7 +88,6 @@ export function Opening({ onOpen }: { onOpen: () => void }) {
             transition={{ duration: 0.5, ease }}
           >
             <div className="absolute right-4 top-4 flex flex-wrap items-center justify-end gap-2 sm:right-8 sm:top-8 md:right-12 md:top-12">
-              <SideToggle tone="dark" />
               <LangToggle tone="dark" />
             </div>
 

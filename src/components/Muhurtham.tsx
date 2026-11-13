@@ -53,7 +53,7 @@ function MuhurthamClock() {
   return (
     <div className="relative mx-auto h-60 w-60 md:h-72 md:w-72">
       <svg viewBox="0 0 240 240" className="h-full w-full" aria-hidden="true">
-        <circle cx="120" cy="120" r="116" fill="#2d2620" stroke="#c9a96e" strokeWidth="1.5" />
+        <circle cx="120" cy="120" r="116" fill="#4a1c24" stroke="#c9a96e" strokeWidth="1.5" />
         <circle cx="120" cy="120" r="108" fill="none" stroke="#c9a96e" strokeWidth="0.6" strokeDasharray="1 4" />
         <circle cx="120" cy="120" r="96" fill="#fbf7f0" />
         <circle cx="120" cy="120" r="90" fill="none" stroke="#b08d57" strokeWidth="0.6" />
@@ -77,7 +77,7 @@ function MuhurthamClock() {
                 y={120 + Math.sin(a) * 72 + 5}
                 textAnchor="middle"
                 fontSize="15"
-                fill="#2d2620"
+                fill="#4a1c24"
                 style={{ fontFamily: "var(--font-cormorant), serif" }}
               >
                 {i + 1}
@@ -90,7 +90,7 @@ function MuhurthamClock() {
         <motion.path
           d="M161.6 157.5 A56 56 0 1 1 120 64"
           fill="none"
-          stroke="#c98d85"
+          stroke="#b5523b"
           strokeWidth="3"
           strokeLinecap="round"
           opacity={0.6}
@@ -107,7 +107,7 @@ function MuhurthamClock() {
           transition={{ duration: 2.2, ease }}
           style={{ originX: "120px", originY: "120px", transformBox: "view-box" }}
         >
-          <path d="M120 128 L116 120 L120 66 L124 120 Z" fill="#2d2620" />
+          <path d="M120 128 L116 120 L120 66 L124 120 Z" fill="#4a1c24" />
         </motion.g>
         <motion.g
           initial={{ rotate: 0 }}

@@ -3,7 +3,7 @@
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { LangToggle, SideToggle, useLang } from "./i18n";
+import { LangToggle, useLang } from "./i18n";
 import { ease } from "./ui";
 
 export function Nav() {
@@ -67,7 +67,6 @@ export function Nav() {
           </ul>
 
           <div className="flex items-center gap-2 sm:gap-3">
-            <SideToggle tone={solid ? "dark" : "light"} />
             <LangToggle tone={solid ? "dark" : "light"} />
             <button
               className={`xl:hidden ${solid ? "text-ink" : "text-ivory"}`}
@@ -115,7 +114,6 @@ export function Nav() {
               ))}
             </ul>
             <div className="flex flex-col items-center gap-3 pb-10">
-              <SideToggle tone="dark" />
               <LangToggle tone="dark" />
             </div>
           </motion.div>

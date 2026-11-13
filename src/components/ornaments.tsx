@@ -8,9 +8,9 @@ function MarigoldDefs() {
   return (
     <defs>
       <radialGradient id="mg-orange" cx="40%" cy="35%" r="70%">
-        <stop offset="0%" stopColor="#f8e4df" />
-        <stop offset="55%" stopColor="#ecc9c3" />
-        <stop offset="100%" stopColor="#c98d85" />
+        <stop offset="0%" stopColor="#fde3b8" />
+        <stop offset="55%" stopColor="#f4a640" />
+        <stop offset="100%" stopColor="#d9741f" />
       </radialGradient>
       <radialGradient id="mg-yellow" cx="40%" cy="35%" r="70%">
         <stop offset="0%" stopColor="#fbf1dc" />
@@ -102,7 +102,7 @@ export function MarigoldString({ count = 10, className = "", delay = 0 }: { coun
       <line x1="15" y1="0" x2="15" y2={count * step} stroke="#b08d57" strokeWidth="1" />
       {Array.from({ length: count }, (_, i) =>
         i % 4 === 3 ? (
-          <path key={i} d={`M15 ${10 + i * step - 7} C 22 ${10 + i * step}, 22 ${10 + i * step + 5}, 15 ${10 + i * step + 9} C 8 ${10 + i * step + 5}, 8 ${10 + i * step}, 15 ${10 + i * step - 7}Z`} fill="#c98d85" />
+          <path key={i} d={`M15 ${10 + i * step - 7} C 22 ${10 + i * step}, 22 ${10 + i * step + 5}, 15 ${10 + i * step + 9} C 8 ${10 + i * step + 5}, 8 ${10 + i * step}, 15 ${10 + i * step - 7}Z`} fill="#b5523b" />
         ) : (
           <Marigold key={i} cx={15} cy={10 + i * step} r={8} tone={i % 2 ? "yellow" : "orange"} />
         )
@@ -186,7 +186,7 @@ type Petal = { left: number; size: number; duration: number; delay: number; drif
 export function Petals({ count = 16 }: { count?: number }) {
   const [petals, setPetals] = useState<Petal[]>([]);
   useEffect(() => {
-    const hues = ["#ecc9c3", "#e8d2b0", "#f3dccf", "#c98d85", "#f6e3dd"];
+    const hues = ["#f4a640", "#f6c46a", "#e8d2b0", "#b5523b", "#f3d2c4"];
     setPetals(
       Array.from({ length: count }, () => ({
         left: Math.random() * 100,

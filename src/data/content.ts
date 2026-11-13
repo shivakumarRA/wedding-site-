@@ -34,7 +34,7 @@ export const images = {
   hero: img("1654156577076-e0350ba86cc1", 2400), // hands joined over the sacred fire
   kalash: img("1606293926075-69a00dbfde81", 1000), // kalasam with coconut & mango leaves
   venue: img("1587271407850-8d438ca9fdf2", 1800), // decorated mandapam
-  lunch: img("1741376509047-66dae5df90f9", 1200), // served on banana leaf
+  lunch: img("1589302168068-964664d93dc0", 1200), // chicken biryani (non-veg)
   traditions: [
     { src: img("1601121141461-9d6647bca1ed", 900), alt: "Traditional gold temple jewellery" },
     { src: img("1597157639073-69284dc0fdaf", 900), alt: "Hands adorned with gold bangles during the rituals" },

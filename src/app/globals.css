@@ -7,13 +7,13 @@
   --color-champagne: #c9a96e;
   --color-gold: #b08d57;
   --color-gold-deep: #8a6a3b;
-  --color-blush: #ecc9c3;
-  --color-blush-deep: #c98d85;
+  --color-blush: #f3d2c4;
+  --color-blush-deep: #b5523b;
   --color-sage: #9aa68c;
   --color-sage-deep: #6f7a63;
-  --color-ink: #2d2620;
-  --color-ink-deep: #231c17;
-  --color-ink-soft: #5e544a;
+  --color-ink: #4a1c24;
+  --color-ink-deep: #33121a;
+  --color-ink-soft: #7a4e52;
 
   /* Latin font first; Telugu glyphs fall through to the Telugu font automatically. */
   --font-serif: var(--font-cormorant), var(--font-tiro-telugu), Georgia, serif;
